@@ -145,12 +145,12 @@
     <div class="container">
         <span class="badge">LifeDash</span>
         <h1>Privacy Policy</h1>
-        <p class="subtitle">Last updated: April 10, 2026</p>
+        <p class="subtitle">Last updated: May 7, 2026</p>
 
         <div class="card">
             <h2>Summary</h2>
             <div class="highlight-box">
-                <p>LifeDash does not collect, store, transmit, or share any personal data. All data remains exclusively on your device and, optionally, in your personal iCloud account.</p>
+                <p>LifeDash does not collect, store, transmit, or share any personal data. All data remains exclusively on your device and, optionally, in your personal iCloud account. HealthKit integration is optional and used solely for local synchronization — no health data is sent anywhere.</p>
             </div>
         </div>
 
@@ -179,18 +179,36 @@
         </div>
 
         <div class="card">
-            <h2>4. Subscriptions and payments</h2>
+            <h2>4. HealthKit integration</h2>
+            <p>LifeDash offers an <strong>optional</strong> integration with Apple HealthKit. This integration is used solely to synchronize data between LifeDash and the Health app on your device. Specifically:</p>
+            <ul>
+                <li>Data you enter in LifeDash (such as workouts, body measurements, or other health-related entries) can be written to HealthKit so it appears in Apple's Health app.</li>
+                <li>Similarly, relevant data already stored in HealthKit can be read into LifeDash for display purposes.</li>
+                <li>This synchronization happens <strong>entirely on your device</strong>. No health data is transmitted to external servers, third-party services, or the developer.</li>
+            </ul>
+            <p>Important details about HealthKit usage:</p>
+            <ul>
+                <li><strong>Entirely optional:</strong> You can choose not to enable HealthKit integration at all. The app functions fully without it.</li>
+                <li><strong>Granular permissions:</strong> You control exactly which data types LifeDash can read from or write to HealthKit, through the standard iOS Health permissions dialog.</li>
+                <li><strong>No data leaves your device:</strong> HealthKit data is never uploaded, shared, sold, or transmitted anywhere by LifeDash.</li>
+                <li><strong>Deletion:</strong> You can delete any data written by LifeDash directly in the Health app or within LifeDash itself at any time.</li>
+                <li><strong>No health advice:</strong> LifeDash does <strong>not</strong> provide medical advice, health recommendations, diagnoses, or suggestions to change health-related habits. The app is a personal tracking tool only.</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>5. Subscriptions and payments</h2>
             <p>LifeDash offers subscription plans processed entirely through Apple's native in-app purchase system (StoreKit / App Store). No financial data — such as credit card numbers, bank details, or billing information — is collected, processed, or stored by LifeDash.</p>
             <p>All payment management, renewals, and cancellations are handled by Apple. See <a href="https://www.apple.com/legal/internet-services/itunes/">Apple Media Services Terms</a> for more information.</p>
         </div>
 
         <div class="card">
-            <h2>5. Children's data</h2>
+            <h2>6. Children's data</h2>
             <p>LifeDash does not collect data from any user, including minors. Since no personal information is collected or transmitted, the app complies with COPPA (Children's Online Privacy Protection Act) and equivalent regulations.</p>
         </div>
 
         <div class="card">
-            <h2>6. Third-party services</h2>
+            <h2>7. Third-party services</h2>
             <p>LifeDash does not integrate any third-party services that collect user data. We do not use:</p>
             <ul>
                 <li>Analytics tools (Google Analytics, Firebase, Mixpanel, etc.)</li>
@@ -198,15 +216,17 @@
                 <li>Advertising networks</li>
                 <li>Social media SDKs</li>
             </ul>
-            <p>The only external integration is with Apple's iCloud, as described in section 3.</p>
+            <p>The only external integrations are with Apple's own frameworks: iCloud (as described in section 3) and HealthKit (as described in section 4). Both operate entirely on-device or within Apple's ecosystem, and no data is shared with third parties.</p>
         </div>
 
         <div class="card">
-            <h2>7. Your rights</h2>
+            <h2>8. Your rights</h2>
             <p>Since your data is stored locally on your device and in your personal iCloud account, you have full control over it. You can:</p>
             <ul>
                 <li><strong>View</strong> all your data directly in the app.</li>
                 <li><strong>Edit or delete</strong> any data at any time within the app.</li>
+                <li><strong>Delete HealthKit data</strong> written by LifeDash directly in the Health app or within LifeDash.</li>
+                <li><strong>Revoke HealthKit permissions</strong> at any time through iOS Settings > Health > Data Access & Devices.</li>
                 <li><strong>Erase all iCloud data</strong> through the app's Settings section.</li>
                 <li><strong>Uninstall the app</strong> to remove all local data.</li>
             </ul>
@@ -214,13 +234,13 @@
         </div>
 
         <div class="card">
-            <h2>8. Changes to this policy</h2>
+            <h2>9. Changes to this policy</h2>
             <p>If this Privacy Policy is updated, the new version will be published on this same page with the updated revision date. We recommend checking this page periodically.</p>
             <p>If there are significant changes to how we handle data — for example, if we begin collecting any type of information — we will notify users through the app before the change takes effect.</p>
         </div>
 
         <div class="card">
-            <h2>9. Contact</h2>
+            <h2>10. Contact</h2>
             <p>If you have questions about this Privacy Policy, please contact us:</p>
             <p><strong>Email:</strong> <a href="mailto:lifechart.support@gmail.com">lifechart.support@gmail.com</a></p>
         </div>
